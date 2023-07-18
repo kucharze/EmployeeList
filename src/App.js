@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <HomePage items={employees} />
 
-      <EmployeePage />
+      <EmployeePage item={employees[0]} />
     </div>
   );
 }
