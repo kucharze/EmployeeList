@@ -2,7 +2,6 @@ import React from 'react'
 import EmployeeListItem from './EmployeeListItem'
 
 function EmployeeList(props) {
-    conso
   return (
     <div className='EmployeeList'>
         <h2>Our Employees</h2>
