@@ -3,7 +3,8 @@ import EmployeeListItem from './EmployeeListItem'
 
 function EmployeeList() {
   return (
-    <div>
+    <div className='EmployeeList'>
+        <h2>Our Employees</h2>
       <EmployeeListItem name='Steven'/>
     </div>
   )
