@@ -1,10 +1,20 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.home {
+  border: solid black;
+}
+
+.employee {
+  border: solid black;
 }
 
 @media (prefers-reduced-motion: no-preference) {
