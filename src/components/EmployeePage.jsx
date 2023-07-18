@@ -1,10 +1,11 @@
 import React from 'react'
+import Header from './Header'
 
 function EmployeePage() {
   return (
     <div className='employee'>
       <h1>The employee page</h1>
-      <h1>The header</h1>
+      <Header text="Employee"/>
       <h1>The display section</h1>
     </div>
   )
