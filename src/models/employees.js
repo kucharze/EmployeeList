@@ -5,11 +5,11 @@ const employees = [
   },
   {
     name: "Julie Taylor",
-    role: "President",
+    role: "VIP of marketing",
   },
   {
     name: "Eugine Lee",
-    role: "President",
+    role: "CFO",
   },
 ];
 
