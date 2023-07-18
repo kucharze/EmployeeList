@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './Header'
+import EmployeeList from './EmployeeList'
 
 function HomePage() {
   return (
@@ -7,8 +8,7 @@ function HomePage() {
       <h1>The Home page</h1>
       <Header text="Employee Directory"/>
       <h1>SearchBar</h1>
-      <h1>EmployeeList</h1>
-      <h1>EmployeeListItem</h1>
+      <EmployeeList/>
     </div>
   )
 }
