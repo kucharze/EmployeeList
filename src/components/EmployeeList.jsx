@@ -1,11 +1,16 @@
 import React from 'react'
 import EmployeeListItem from './EmployeeListItem'
 
-function EmployeeList() {
+function EmployeeList(props) {
+    conso
   return (
     <div className='EmployeeList'>
         <h2>Our Employees</h2>
-      <EmployeeListItem name='Steven'/>
+        {
+            props.items.map((item)=>{
+                return <EmployeeListItem name={item.name}/>
+            })
+        }
     </div>
   )
 }

@@ -1,14 +1,15 @@
 import React from 'react'
 import Header from './Header'
 import EmployeeList from './EmployeeList'
+import SearchBar from './SearchBar'
 
-function HomePage() {
+function HomePage(props) {
   return (
     <div className='home'>
       <h1>The Home page</h1>
       <Header text="Employee Directory"/>
-      <h1>SearchBar</h1>
-      <EmployeeList/>
+      <SearchBar/>
+      <EmployeeList items={props.items}/>
     </div>
   )
 }

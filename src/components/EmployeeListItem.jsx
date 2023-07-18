@@ -2,7 +2,7 @@ import React from 'react'
 
 function EmployeeListItem(props) {
   return (
-    <div>
+    <div className='empitem'>
       {props.name}
     </div>
   )
