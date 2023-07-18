@@ -12,7 +12,7 @@ function EmployeeList(props) {
             employees.map((item)=>{
                 return <EmployeeListItem 
                 key={item.name} name={item.name} role={item.role}
-                onClick={()=>{setEmp(item)}}/>
+                func={()=>{setEmp(item)}}/>
             })
         }
     </div>
