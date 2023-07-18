@@ -1,11 +1,13 @@
 import { createContext, useState } from "react";
 import employees from "../models/employees";
+
 export const StaffContext = createContext();
 
 const StaffContextProvider = (props) => {
   const [emp, setEmp] = useState("");
+
   return (
-    <StaffContext.Provider value={(emp, setEmp)}>
+    <StaffContext.Provider value={{ emp, setEmp, employees }}>
       {props.children}
     </StaffContext.Provider>
   );
