@@ -7,7 +7,7 @@ function EmployeeList(props) {
         <h2>Our Employees</h2>
         {
             props.items.map((item)=>{
-                return <EmployeeListItem name={item.name}/>
+                return <EmployeeListItem name={item.name} role={item.role}/>
             })
         }
     </div>
