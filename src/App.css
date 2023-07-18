@@ -16,6 +16,9 @@
 .employee {
   border: solid black;
 }
+.empitem {
+  border: solid green;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
