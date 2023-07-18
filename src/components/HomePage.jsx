@@ -6,7 +6,6 @@ import SearchBar from './SearchBar'
 function HomePage(props) {
   return (
     <div className='home'>
-      <h1>The Home page</h1>
       <Header text="Employee Directory"/>
       <SearchBar/>
       <EmployeeList items={props.items}/>
