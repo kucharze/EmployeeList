@@ -11,10 +11,12 @@
 
 .home {
   border: solid black;
+  width: 350px;
 }
 
 .employee {
   border: solid black;
+  width: 350px;
 }
 .empitem {
   border: solid green;
