@@ -8,6 +8,7 @@ function Display(props) {
     <div>
       <h2>{emp.name}</h2>
       <h2>{emp.role}</h2>
+      <h2>{emp.phone}</h2>
     </div>
   )
 }
