@@ -3,13 +3,12 @@ import "./App.css";
 import HomePage from "./components/HomePage";
 import EmployeePage from "./components/EmployeePage";
 import employees from "./models/employees";
+import Title from "./components/Title";
 
 function App() {
   return (
     <div className="App">
-      <div className="title">
-        <h1>Employee catalog</h1>
-      </div>
+      <Title />
       <div className="mainApp">
         <HomePage items={employees} />
         <EmployeePage item={employees[0]} />
