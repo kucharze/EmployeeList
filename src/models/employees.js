@@ -9,13 +9,13 @@ const employees = [
     name: "Julie Taylor",
     role: "VIP of marketing",
     phone: "734-838-7806",
-    email: "James.King@company.com",
+    email: "Julie.Taylor@company.com",
   },
   {
     name: "Eugine Lee",
     role: "CFO",
     phone: "1-800-I-Got-Your-Stuff",
-    email: "James.King@company.com",
+    email: "Eugine.L@company.com",
   },
 ];
 
