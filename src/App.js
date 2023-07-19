@@ -7,9 +7,13 @@ import employees from "./models/employees";
 function App() {
   return (
     <div className="App">
-      <HomePage items={employees} />
-
-      <EmployeePage item={employees[0]} />
+      <div className="title">
+        <h1>Employee catalog</h1>
+      </div>
+      <div className="mainApp">
+        <HomePage items={employees} />
+        <EmployeePage item={employees[0]} />
+      </div>
     </div>
   );
 }

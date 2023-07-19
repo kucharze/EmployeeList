@@ -1,8 +1,24 @@
-.App {
+.mainApp {
   text-align: center;
   display: flex;
   justify-content: center;
   background-color: blue;
+}
+.title {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  width: 700px;
+}
+
+.App {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+  align-items: center;
 }
 
 .App-logo {
