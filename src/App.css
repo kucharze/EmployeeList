@@ -9,6 +9,11 @@
   pointer-events: none;
 }
 
+.header {
+  border-bottom: solid black;
+  margin-bottom: 2em;
+}
+
 .home {
   border: solid black;
   width: 350px;
