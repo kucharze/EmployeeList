@@ -9,6 +9,15 @@
   pointer-events: none;
 }
 
+.display_name {
+  font-size: 40px;
+  margin-bottom: 1em;
+}
+
+.display {
+  margin-bottom: 25px;
+}
+
 .header {
   border-bottom: solid black;
   margin-bottom: 2em;

@@ -6,10 +6,10 @@ function Display(props) {
     let {emp} = useContext(StaffContext)
   return (
     <div>
-      <h1>{emp.name}</h1>
-      <h2>{emp.role}</h2>
-      <h2>{emp.phone}</h2>
-      <h2>{emp.email}</h2>
+      <h1 className='display_name'>{emp.name}</h1>
+      <h2 className='display'>{emp.role}</h2>
+      <h2 className='display'>{emp.phone}</h2>
+      <h2 className='display'>{emp.email}</h2>
     </div>
   )
 }
