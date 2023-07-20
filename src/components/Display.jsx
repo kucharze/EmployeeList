@@ -6,6 +6,7 @@ function Display(props) {
     let {emp} = useContext(StaffContext)
   return (
     <div>
+      <img src={emp.icon} alt="" className='displayPic'/>
       <h1 className='display_name'>{emp.name}</h1>
       <h2 className='display'>{emp.role}</h2>
       <h2 className='display'>{emp.phone}</h2>

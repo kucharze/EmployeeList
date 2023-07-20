@@ -16,6 +16,10 @@
   height: 100px;
 }
 
+.displayPic {
+  height: 300px;
+}
+
 .App {
   background-color: blue;
   display: flex;
