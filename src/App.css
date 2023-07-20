@@ -12,6 +12,9 @@
   width: 700px;
   font-size: 25px;
 }
+.icon {
+  height: 100px;
+}
 
 .App {
   background-color: blue;

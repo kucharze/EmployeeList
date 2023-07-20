@@ -11,7 +11,7 @@ function EmployeeList(props) {
         {
             employees.map((item)=>{
                 return <EmployeeListItem 
-                key={item.name} name={item.name} role={item.role}
+                key={item.name} name={item.name} role={item.role} img={item.icon}
                 func={()=>{setEmp(item)}}/>
             })
         }
