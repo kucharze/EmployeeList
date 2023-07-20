@@ -3,7 +3,7 @@ import EmployeeListItem from './EmployeeListItem'
 import { useContext } from 'react'
 import { StaffContext } from '../context/StaffContext'
 
-function EmployeeList(props) {
+function EmployeeList() {
     let {employees, setEmp} = useContext(StaffContext)
   return (
     <div className='EmployeeList'>

@@ -2,7 +2,7 @@ import React from 'react'
 import { StaffContext } from '../context/StaffContext'
 import { useContext } from 'react'
 
-function Display(props) {
+function Display() {
     let {emp} = useContext(StaffContext)
   return (
     <div>
